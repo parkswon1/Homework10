@@ -44,7 +44,7 @@ int main()
 	char command; //command받아올 char형 변수
 	int key; //int형 key 변수
 	Node* head = NULL; //head노드 생성후 NULL로 초기화
-	printf("[----- [Your Name] [Student ID] -----]");
+	printf("[----- [Seok Won Park] [2017018003] -----]");
 	do{
 		printf("\n\n");
 		printf("----------------------------------------------------------------\n");
@@ -400,7 +400,6 @@ void printStack() //STack을 출력하는 함수
 	while(i <= top) //만약 i가 top보다 작거나 같을때까지 실행
 	{
 		printf("stack[%d] = %d\n", i, stack[i]->key); //stack[i]->key가 i번째에 있다는거 출력
-		i++;
 	}
 }
 
